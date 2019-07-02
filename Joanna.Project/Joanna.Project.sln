@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00Apps", "00Apps", "{9F78F473-A980-43E1-B9AE-DF74DA646B09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01Ocelot", "01Ocelot", "{BF0D859D-5BC9-4F52-8B79-B59920F1FE6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joanna.Ocelot", "Joanna.Ocelot\Joanna.Ocelot.csproj", "{8CB8BE33-84A8-4D72-BBED-5FAB892D6708}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CB8BE33-84A8-4D72-BBED-5FAB892D6708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB8BE33-84A8-4D72-BBED-5FAB892D6708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB8BE33-84A8-4D72-BBED-5FAB892D6708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB8BE33-84A8-4D72-BBED-5FAB892D6708}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF0D859D-5BC9-4F52-8B79-B59920F1FE6B} = {9F78F473-A980-43E1-B9AE-DF74DA646B09}
+		{8CB8BE33-84A8-4D72-BBED-5FAB892D6708} = {BF0D859D-5BC9-4F52-8B79-B59920F1FE6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AAF5074-DDE9-45E2-84F3-6B6199A63D69}
+	EndGlobalSection
+EndGlobal
