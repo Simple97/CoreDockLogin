@@ -1,11 +1,14 @@
 ﻿using Joanna.Ocelot.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Routing;
 using Newtonsoft.Json;
 using System;
 using System.Net;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Joanna.Ocelot.Controllers
 {
@@ -35,15 +38,30 @@ namespace Joanna.Ocelot.Controllers
                     var result = JsonConvert.DeserializeObject<ResParameter>(data);
                     if (result.code != "200")
                     {
-                        context.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                        //本地退出
+                        Task.Run(async () =>
+                        {
+                            await context.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                        }).Wait();
+                        //跳转提示页面（提示页面不受权限控制）
+                        RouteValueDictionary dictionary = new RouteValueDictionary
+                        (new
+                        {
+                            controller = "Prompt",
+                            action = "Index",
+                            returnUrl = context.HttpContext.Request
+                        });
+                        context.Result = new RedirectToRouteResult(dictionary);
                     }
                 }
                 base.OnActionExecuting(context);
             }
             catch (Exception e)
             {
-
-                throw;
+                Task.Run(async () =>
+                {
+                    await context.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                }).Wait();
             }
         }
 

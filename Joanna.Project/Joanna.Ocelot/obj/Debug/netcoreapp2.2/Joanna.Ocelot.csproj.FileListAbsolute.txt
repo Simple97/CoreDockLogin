@@ -57,3 +57,11 @@ D:\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.dll
 D:\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.pdb
 D:\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.csproj.CopyComplete
 D:\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.csprojAssemblyReference.cache
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.csprojAssemblyReference.cache
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.csproj.CoreCompileInputs.cache
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.RazorAssemblyInfo.cache
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.RazorAssemblyInfo.cs
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.AssemblyInfoInputs.cache
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.AssemblyInfo.cs
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.dll
+D:\Project\DevelopProjects\CoreDockLogin.git\trunk\Joanna.Project\Joanna.Ocelot\obj\Debug\netcoreapp2.2\Joanna.Ocelot.pdb

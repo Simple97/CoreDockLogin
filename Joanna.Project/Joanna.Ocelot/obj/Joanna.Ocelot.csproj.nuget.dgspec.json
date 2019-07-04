@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj": {}
+    "D:\\Project\\DevelopProjects\\CoreDockLogin.git\\trunk\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj": {}
   },
   "projects": {
-    "D:\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj": {
+    "D:\\Project\\DevelopProjects\\CoreDockLogin.git\\trunk\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj",
+        "projectUniqueName": "D:\\Project\\DevelopProjects\\CoreDockLogin.git\\trunk\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj",
         "projectName": "Joanna.Ocelot",
-        "projectPath": "D:\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj",
+        "projectPath": "D:\\Project\\DevelopProjects\\CoreDockLogin.git\\trunk\\Joanna.Project\\Joanna.Ocelot\\Joanna.Ocelot.csproj",
         "packagesPath": "C:\\Users\\Develop\\.nuget\\packages\\",
-        "outputPath": "D:\\Joanna.Project\\Joanna.Ocelot\\obj\\",
+        "outputPath": "D:\\Project\\DevelopProjects\\CoreDockLogin.git\\trunk\\Joanna.Project\\Joanna.Ocelot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
